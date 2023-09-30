@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
 :root {
     --cor0: #f61e02;
     --cor1: #d4021b;
@@ -8,17 +12,19 @@
     --cor4: #a402f6;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-titulo: 'Montserrat', cursive;
+    --font-destaque: 'Macondo', cursive;
 }
 
 * {
-    /*margin: 0px;
-    padding: 0px; */
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
-
+    font-family: var(--font-destaque);
 }
 
 nav {
-
+    font-family: var(--font-padrao);
 }
