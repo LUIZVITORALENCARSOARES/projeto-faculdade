@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #0b0185;
+    --cor1: #32018f;
+    --cor2: #4c0578;
+    --cor3: #7f018f;
+    --cor4: #85015e;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-titulo: 'Montserrat', cursive;
+    --font-destaque: 'Macondo', cursive;
+}
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -11,7 +23,7 @@ main {
 }
 
 main h2 {
-    color: darkblue;
+    color: var(--cor2);
     font-family: var(--font-destaque);
     font-weight: normal;
     font-size: 1.8em;
@@ -19,7 +31,7 @@ main h2 {
 
 main h3 {
     font-family: var(--font-destaque);
-    color: darkgreen;
+    color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
     text-indent: 8px;
@@ -38,12 +50,12 @@ main img {
 }
 
 main strong {
-    color: greenyellow;
+    color: var(--cor0);
     font-weight: bold;
 }
 
 aside {
-    background-color: lightblue;
+    background-color: var(--cor3);
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -51,7 +63,7 @@ aside {
 }
 
 aside > h3 {
-    background-color: aqua;
+    background-color: var(--cor1);
     color: white;
     padding: 10px;
     margin: -10px -10px 0px -10px;
@@ -66,7 +78,7 @@ aside > ul {
 }
 
 footer {
-    background-color: aqua;
+    background-color: var(--cor4);
     color: white;
     text-align: center;
     font-size: 0.8em;

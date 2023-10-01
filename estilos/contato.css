@@ -1,12 +1,24 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #0b0185;
+    --cor1: #32018f;
+    --cor2: #4c0578;
+    --cor3: #7f018f;
+    --cor4: #85015e;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-titulo: 'Montserrat', cursive;
+    --font-destaque: 'Macondo', cursive;
+}
+
 p#sobre {
     padding: 10px;
     text-align: justify;
 }
 
 aside {
-    background-color: lightcoral;
+    background-color: var(--cor0);
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -17,8 +29,22 @@ aside {
 
 #contato {
     font-weight: bold;
+    color: white;
 }
 
 aside > ul {
     list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
 }

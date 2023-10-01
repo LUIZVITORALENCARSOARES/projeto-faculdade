@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 :root {
-    --cor0: #f6051b;
-    --cor1: #d4047f;
-    --cor2: #00ebd8;
-    --cor3: #ed5b3b;
-    --cor4: #b81812;
+    --cor0: #0b0185;
+    --cor1: #32018f;
+    --cor2: #4c0578;
+    --cor3: #7f018f;
+    --cor4: #85015e;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-titulo: 'Montserrat', cursive;
@@ -27,12 +27,10 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
     min-height: 150px;
     text-align: right center;
     padding: 40px;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header h1 {
@@ -46,13 +44,13 @@ header h1 {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--cor2);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
-    color: darkgray;
+    color: white;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -60,7 +58,7 @@ nav > a {
 }
 
 nav a:hover {
-    background-color: yellow;
-    color: skyblue;
+    background-color: var(--cor4);
+    color: var(--cor0);
 }
 
